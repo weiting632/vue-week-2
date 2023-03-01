@@ -76,7 +76,7 @@ createApp({
         this.getProducts();
       })
       .catch((err) => {
-        window.location = './login.html'; //登入失敗跳轉回登入頁面
+        window.location = './index.html'; //登入失敗跳轉回登入頁面
       })
    },
    getProducts(){
